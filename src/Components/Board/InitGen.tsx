@@ -6,7 +6,7 @@ import './board-styles.css'
 const InitBoard = () =>  {
     return (
 <div className="container1">
-    <div className="firstBoard" >
+    <div className="firstBoard" id="board">
         <div className="row row-cols-6 wbrow">
             {/* onClick={invert} for all  */}
             <div className="col wbbcol">
